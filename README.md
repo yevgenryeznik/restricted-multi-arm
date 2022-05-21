@@ -39,4 +39,8 @@ P_k(j) = \frac{w_k\lambda(1 + k^{(j-1)})-N_k(j-1)}{b(1 + k^{(j-1)})-(j-1)}, \qua
 $$
 
 iii) **B**lock **U**rn **D**esign (_**BUD**_($\lambda$)): This design was proposed by Zhao and Weng (2011), to provide a more random design than the 
-_**PBD**_($\lambda$). Let $N_k(j-1)$ denote the number of treatment $K$ assignments among first $j−1$ subjects, and $k^{(j-1)} = \min\limits_{1\leq k \leq K}\left[int\left(\frac{N_k(j-1)}{w_k}\right)\right]$ denote the number of minimal balanced sets among the first $j−1$ assignments.
+_**PBD**_($\lambda$). Let $N_k(j-1)$ denote the number of treatment $K$ assignments among first $j−1$ subjects, and $k^{(j-1)} = \min\limits_{1\leq k \leq K}\left[int\left(\frac{N_k(j-1)}{w_k}\right)\right]$ denote the number of minimal balanced sets among the first $j−1$ assignments. Then subject $j$ is randomized to treatments with probabilities [Zhao and Weng (2011), page 955, equation (2)]:
+
+$$
+P_k(j) = \frac{w_k(\lambda + k^{(j-1)})-N_k(j-1)}{W(\lambda + k^{(j-1)})-(j-1)}, \quad k = 1, \ldots, K.
+$$
