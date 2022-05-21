@@ -100,3 +100,11 @@ $$
 $$
 
 where $0 \leq \eta \leq 1$ controls degree of randomness of the procedure.
+
+## Operational characteristics
+
+### Balance
+
+### Randomness
+
+
