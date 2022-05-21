@@ -76,4 +76,10 @@ $$
 
   b) The treatment randomization probabilities for the $j^\text{th}$ subject ($P_1(j), P_2(j), \ldots, P_K(j)$) are determined as a solution to the constrained optimization problem:
   
-  
+$$
+\begin{array}{l}
+\text{minimize} \sum\limits_{k=1}^K\left(P_k(j)-\rho_k\right)^2 \\
+\text{subject to } \sum\limits_{k=1}^KB_kP_k(j) \leq \eta B_{(1)} + (1-\eta)\sum\limits_{k=1}^KB_k\rho_k \\
+\text{and }\sum\limits_{k=1}^KP_k(j) = 1; \quad 0 \leq P_k(j) \leq 1, \quad k = 1, 2, \ldots K.
+\end{array}
+$$
