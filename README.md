@@ -14,3 +14,5 @@ There is a _simulation example_ comparing procedures in terms of
 |:---------------:|:------------------------------------------------------------------------------------------------------------------:|
 |$w_1:\ldots:w_K$ | Fixed allocation ratio; $w_k$'s are positive, not necessarily equal integers with the greatest common divisor of 1.|
 
+
+$X_2^4$
