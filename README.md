@@ -61,4 +61,6 @@ $$
 
 vii) **Min**imum **Q**uadratic **D**istance Constrained Balance Randomization (_**MinQD**_($\eta$)): The design was proposed by Titterington (1983), in the context of multi-arm randomized trials with covariate-adaptive randomization and balanced allocation. Here we consider an extension of this procedure to clinical trials with unequal allocation.
 
-Consider a point in the trial when $j−1$ subjects have been randomized among the $K$ treatments, and let denote the corresponding treatment numbers ($\sum\limits_{k=1}^K{N_k(j-1)} = j-1$). The randomization rule for the $j^\text{th}$ subject is as follows:
+Consider a point in the trial when $j−1$ subjects have been randomized among the $K$ treatments, and let denote the corresponding treatment numbers $\left(\sum\limits_{k=1}^K{N_k(j-1)} = j-1\right)$. The randomization rule for the $j^\text{th}$ subject is as follows:
+
+  a) For $k=1, 2, \ldots, K$, compute $B_k$, the hypothetical "lack of balance" which results from assigning the $j^\text{th}$ subject to treatment $K$:
