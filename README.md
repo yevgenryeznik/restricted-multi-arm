@@ -44,3 +44,12 @@ _**PBD**_($\lambda$). Let $N_k(j-1)$ denote the number of treatment $K$ assignme
 $$
 P_k(j) = \frac{w_k(\lambda + k^{(j-1)})-N_k(j-1)}{W(\lambda + k^{(j-1)})-(j-1)}, \quad k = 1, \ldots, K.
 $$
+
+iv) **M**ass **W**eighted **U**rn **D**esign (_**MWUD**_($\alpha$)): This design was proposed by Zhao (2015). The parameter $\alpha>0$ controls the maximum tolerated treatment imbalance. In his paper, Zhao (2015) considered 4 choices: $\alpha$ = 2; 4; 6; 8. _**MWUD**_($\alpha$) has the following formula for (conditional) treatment allocation probabilities [Zhao (2015), page 211, equation (7a)]:
+
+$$
+P_k(j) = \frac{\max\left(\alpha\rho_k - N_k(j-1)-(j-1)\rho_k, 0\right)}{\sum\limits_{k = 1}^K{\max\left(\alpha\rho_k - N_k(j-1)-(j-1)\rho_k, 0\right)}}, \quad k = 1, \ldots, K.
+$$
+
+v) **D**rop-the-**L**oser Rule (_**DL**_($a$)): The _**DL**_ rule was developed by Ivanova (2003) in the context of multi-arm binary response trials with response-adaptive randomization. Here we consider its application for fixed unequal allocation. 
+
