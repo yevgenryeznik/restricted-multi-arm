@@ -24,7 +24,7 @@ $\boldsymbol{N}(j) = \left(N_1(j), \ldots, N_K(j)\right)$ -- numbers of subjects
 
 $\boldsymbol{P}(j) = \left(P_1(j), \ldots, P_K(j)\right)$ -- vector of _treatment randomization probabilities_ for subject $j$. Note that $0 \leq P_k(j) \leq 1$, and $\sum\limits_{k = 1}^K{P_k(j)} = 1$ for every $j = 1, 2, \ldots, n$. Also, note that in general, $\boldsymbol{P}(j)$ depends on $\boldsymbol{N}(j-1)$ (in generalization of Efron's BCD) or on $\frac{\boldsymbol{N}(j-1)}{j-1}$ (in generalization of Wei's UD).
 
-## Currently implemented procedures
+## Implemented procedures
 
 i) **C**ompletely **R**andomized **D**esign (_**CRD**_): Every subject is randomizad to treatment group with fixed probabilities that are equal to the target allocation proportions:
 
@@ -60,3 +60,5 @@ P_k(j) = \frac{\rho_k\left(\rho_k/\frac{N_k(j-1)}{j-1}\right)^\gamma}{\sum\limit
 $$
 
 vii) **Min**imum **Q**uadratic **D**istance Constrained Balance Randomization (_**MinQD**_($\eta$)): The design was proposed by Titterington (1983), in the context of multi-arm randomized trials with covariate-adaptive randomization and balanced allocation. Here we consider an extension of this procedure to clinical trials with unequal allocation.
+
+Consider a point in the trial when $j−1$ subjects have been randomized among the $K$ treatments, and let denote the corresponding treatment numbers ($\sum\limits_{k=1}^K{N_k(j-1)} = j-1$). The randomization rule for the $j^\text{th}$ subject is as follows:
