@@ -32,5 +32,5 @@ $$
 P_k(j) = \rho_k, \quad k= 1, \ldots, K.
 $$
 
-ii) **P**ermuted **B**lock **D**esign (_**PBD**_($\lambda$)): Let $W = w_1 + w_2 + \ldots + w_K$, and let $b = \lambda W$, where $\lambda$="_number of minimal balanced sets in the block of size_ $b$". Let $k^*_{j-1} = int\left(\frac{j-1}{b}\right)$ ($int(x)$ returns the greatest integer less than or equal to $x$). 
+ii) **P**ermuted **B**lock **D**esign (_**PBD**_($\lambda$)): Let $W = w_1 + w_2 + \ldots + w_K$, and let $b = \lambda W$, where $\lambda$="_number of minimal balanced sets in the block of size_ $b$". Let $k^*_{j-1} = int\left(\frac{j-1}{b}\right)$ ($int(x)$ returns the greatest integer less than or equal to $x$). In essence, $k^*_{j-1}$ 
 
