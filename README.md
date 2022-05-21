@@ -14,6 +14,6 @@ $K$ -- number of treatments ($K \geq 2$).                                       
 
 $w_1:\ldots:w_K$ -- fixed allocation ratio; $w_k$'s are positive, not necessarily equal integers with the greatest common divisor of 1.
 
-$\rho_k = \frac{w_k}{\sum_{k=1}^k{w_k}}$ -- target treatment allocation proportions; $0 \leq \rho_k \leq 1$, and $\sum_{k =1}^K{\rho_k} = 1$.
+$\rho_k = \frac{w_k}{\sum_{k=1}^K{w_k}}$ -- target treatment allocation proportions; $0 \leq \rho_k \leq 1$, and $\sum_{k =1}^K{\rho_k} = 1$.
 
 
