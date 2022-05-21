@@ -58,3 +58,5 @@ vi) **D**oubly-**A**daptive **B**iased **C**oin **D**esign (_**DBCD**_($\gamma$)
 $$
 P_k(j) = \frac{\rho_k\left(\rho_k/\frac{N_k(j-1)}{j-1}\right)^\gamma}{\sum\limits_{k=1}^K \rho_k\left(\rho_k/\frac{N_k(j-1)}{j-1}\right)^\gamma}, \quad k = 1, \ldots, K.
 $$
+
+vii) **Min**imum **Q**uadratic **D**istance Constrained Balance Randomization (_**MinQD**_($\eta$)): The design was proposed by Titterington (1983), in the context of multi-arm randomized trials with covariate-adaptive randomization and balanced allocation. Here we consider an extension of this procedure to clinical trials with unequal allocation.
