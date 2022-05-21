@@ -51,5 +51,7 @@ $$
 P_k(j) = \frac{\max\left(\alpha\rho_k - N_k(j-1)-(j-1)\rho_k, 0\right)}{\sum\limits_{k = 1}^K{\max\left(\alpha\rho_k - N_k(j-1)-(j-1)\rho_k, 0\right)}}, \quad k = 1, \ldots, K.
 $$
 
-v) **D**rop-the-**L**oser Rule (_**DL**_($a$)): The _**DL**_ rule was developed by Ivanova (2003) in the context of multi-arm binary response trials with response-adaptive randomization. Here we consider its application for fixed unequal allocation. 
+v) **D**rop-the-**L**oser Rule (_**DL**_($a$)): The _**DL**_ rule was developed by Ivanova (2003) in the context of multi-arm binary response trials with response-adaptive randomization. Here we consider its application for fixed unequal allocation. Consider an urn containing balls of $K+1$ types: types $1, 2, \ldots, K$ represent treatments, and type $0$ is the immigration ball. Initially, the urn contains 1 immigration ball and $w_k$ treatment balls. The treatment assignments are made sequentially by drawing balls at random from the urn. If a type $k$ ball is drawn ($k=1, 2, \ldots, K$), treatment $k$ is assigned to the subject and the ball is not replaced into the urn. If type $0$ ball is drawn, it is replaced into the urn along with $aw_1, aw_2, \ldots, aw_K$ balls of types $1, 2, \ldots, K$. The parameter $a$ is some positive integer (larger values of $a$ imply greater amount of randomness in the experiment). The _**DL**_ rule is a fully randomized procedure, and it is known to be asymptotically best (Hu et al. 2006).
+
+vi)
 
