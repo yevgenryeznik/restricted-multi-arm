@@ -26,11 +26,11 @@ $\boldsymbol{P}(j) = \left(P_1(j), \ldots, P_K(j)\right)$ -- vector of _treatmen
 
 ## Currently implemented procedures
 
-**C**ompletely **R**andomized **D**esign (_**CRD**_): Every subject is randomizad to treatment group with fixed probabilities that are equal to the target allocation proportions:
+i) **C**ompletely **R**andomized **D**esign (_**CRD**_): Every subject is randomizad to treatment group with fixed probabilities that are equal to the target allocation proportions:
 
 $$
 P_k(j) = \rho_k, \quad k= 1, \ldots, K.
 $$
 
-**P**ermuted **B**lock **D**esign (_**PBD**_($\lambda$)): 
+ii) **P**ermuted **B**lock **D**esign (_**PBD**_($\lambda$)): 
 
