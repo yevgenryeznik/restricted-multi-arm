@@ -89,7 +89,7 @@ is almost deterministic procedure).
 
 viii) **Max**imum **Ent**ropy Constraint Balance Randomization (_**MaxEnt**_($\eta$)): The design was proposed by Klotz (1978), in the context of multi-arm randomized trials with covariate-adaptive randomization and balanced allocation. Here we consider an extension of this procedure to clinical trials with unequal allocation. 
 
-The _**MaxEnt**_ design follows the same idea as the _**MinQD**_($\eta$) design, except for step (b), in which the constrained optimization problem deals with minimization of the _Kullback-Leibler divergence_ between ($P_1(j), P_2(j), \ldots, P_k(j)) and ($\rho_1, \rho_2, \ldots, \rho_K$):
+The _**MaxEnt**_ design follows the same idea as the _**MinQD**_($\eta$) design, except for step (b), in which the constrained optimization problem deals with minimization of the _Kullback-Leibler divergence_ between ($P_1(j), P_2(j), \ldots, P_k(j)$) and ($\rho_1, \rho_2, \ldots, \rho_K$):
 
 $$
 \begin{array}{l}
