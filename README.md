@@ -32,5 +32,5 @@ $$
 P_k(j) = \rho_k, \quad k= 1, \ldots, K.
 $$
 
-ii) **P**ermuted **B**lock **D**esign (_**PBD**_($\lambda$)): 
+ii) **P**ermuted **B**lock **D**esign (_**PBD**_($\lambda$)): Let $W = w_1 + w_2 + \ldots + w_K$, and let $b = \lambda W$, where $\lambda$="_number of minimal balanced sets in the block of size_ $b$".
 
