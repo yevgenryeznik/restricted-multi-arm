@@ -20,9 +20,9 @@ $\boldsymbol{\rho} = \left(\rho_1, \ldots, \rho_K\right)$ -- vector of _target a
 
 $n$ -- total _sample size_ for the trial.
 
-$\boldsymbol{N}(j) = \left(N_1(j), \ldots, N_K(j)\right)$ -- numbers of subjects assigned to $K$ treatments after $j$ allocations ($1 \leq j \leq n). Note that, in general, $N_k(j)$'s are are random variables with $\sum\limits_{k = 1}^K{N_k(j)} = j$.
+$\boldsymbol{N}(j) = \left(N_1(j), \ldots, N_K(j)\right)$ -- numbers of subjects assigned to $K$ treatments after $j$ allocations ($1 \leq j \leq n$). Note that, in general, $N_k(j)$'s are are random variables with $\sum\limits_{k = 1}^K{N_k(j)} = j$.
 
-$\boldsymbol{P}(j) = \left(P_1(j), \ldots, P_K(j)\right)$ -- vector of _treatment randomization probabilities_ for subject $j$.
+$\boldsymbol{P}(j) = \left(P_1(j), \ldots, P_K(j)\right)$ -- vector of _treatment randomization probabilities_ for subject $j$. Note that $0 \leq P_k(j) \leq 1$, and $\sum\limits_{k = 1}^K{P_k(j)} = 1$ for every $j = 1, 2, \ldots, n$. Also, note that in general, $\boldsymbol{P}(j)$ depends on $\boldsymbol{N}(j-1)$ (in generalization of Efron's BCD) or on $\frac{\boldsymbol{N}(j-1)}{j-1}$ (in generalization of Wei's UD).
 
 
 
