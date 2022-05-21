@@ -80,6 +80,11 @@ $$
 \begin{array}{l}
 \text{minimize} \sum\limits_{k=1}^K\left(P_k(j)-\rho_k\right)^2 \\
 \text{subject to } \sum\limits_{k=1}^KB_kP_k(j) \leq \eta B_{(1)} + (1-\eta)\sum\limits_{k=1}^KB_k\rho_k \\
-\text{and }\sum\limits_{k=1}^KP_k(j) = 1; \quad 0 \leq P_k(j) \leq 1, \quad k = 1, 2, \ldots K.
+\text{and }\sum\limits_{k=1}^KP_k(j) = 1; \quad 0 \leq P_k(j) \leq 1, \quad k = 1, 2, \ldots K,
 \end{array}
 $$
+
+where $\eta$ is the user-defined parameter ($0 \leq \eta \leq 1$) that controls degree of randomness ($\eta=0$ is the most random, and $\eta=1$
+is almost deterministic procedure).
+
+viii) **Max**imum **Ent**ropy Constraint Balance Randomization (_**MaxEnt**_($\eta$)): The design was proposed by Klotz (1978), in the context of multi-arm randomized trials with covariate-adaptive randomization and balanced allocation. Here we consider an extension of this procedure to clinical trials with unequal allocation. 
