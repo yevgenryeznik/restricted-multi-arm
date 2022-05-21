@@ -32,7 +32,7 @@ $$
 P_k(j) = \rho_k, \quad k= 1, \ldots, K.
 $$
 
-ii) **P**ermuted **B**lock **D**esign (_**PBD**_($\lambda$)): Let $W = w_1 + w_2 + \ldots + w_K$, and let $b = \lambda W$, where $\lambda$="_number of minimal balanced sets in the block of size_ $b$". Let $\widetilde{k}_{j-1} = int\left(\frac{j-1}{b}\right)$ ($int(x)$ returns the greatest integer less than or equal to $x$). In essence, $\widetilde{k}_{j-1}$ is the number of complete blocks among the first $j−1$ assignments. The conditional randomization probability for the _**PBD**_ design is given by [Zhao and Weng (2011), page 955, equation (5)]:
+ii) **P**ermuted **B**lock **D**esign (_**PBD**_($\lambda$)): Let $W = w_1 + w_2 + \ldots + w_K$, and let $b = \lambda W$, where $\lambda$="_number of minimal balanced sets in the block of size_ $b$". Let $\widetilde{k}_{j-1} = int\left(\frac{j-1}{b}\right)$ ($int(x)$ returns the greatest integer less than or equal to $x$). In essence, it is the number of complete blocks among the first $j−1$ assignments. The conditional randomization probability for the _**PBD**_ design is given by [Zhao and Weng (2011), page 955, equation (5)]:
 
 $$
 P_k(j) = \frac{w_k\lambda(1 + \widetilde{k}_{j-1})-N_k(j-1)}{b(1 + \widetilde{k}_{j-1})-(j-1)}, \quad k = 1, \ldots, K.
