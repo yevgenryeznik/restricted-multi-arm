@@ -66,7 +66,7 @@ Consider a point in the trial when $j−1$ subjects have been randomized among t
   a) For $k=1, 2, \ldots, K$, compute $B_k$, the hypothetical "lack of balance" which results from assigning the $j^\text{th}$ subject to treatment $K$: $B_k = \min\limits_{1\leq i \leq K}\left|\frac{N^{(k)}_i(j)}{j}-\rho_k\right|$, where
   
 $$
-N_i^{(k)}(j) = \left\{
+N_i^{(k)}(j) = \left[
 \begin{array}{rl}
 N_i(j-1) + 1, & i = k \\
 N_i(j-1), & i \ne k
