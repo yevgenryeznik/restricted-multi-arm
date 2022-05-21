@@ -10,8 +10,7 @@ There is a _simulation example_ comparing procedures in terms of
 
 ## Notations
 
----------------------------------------------------------------------------------------------------------------------------------------|
 |$K$              | Number of treatments ($K \geq 2$)                                                                                  |
 |--------------------------------------------------------------------------------------------------------------------------------------|
-|$w_1:\ldost:w_K$ | Fixed allocation ratio; $w_k$'s are positive, not necessarily equal integers with the greatest common divisor of 1.|
+|$w_1:\ldots:w_K$ | Fixed allocation ratio; $w_k$'s are positive, not necessarily equal integers with the greatest common divisor of 1.|
 |--------------------------------------------------------------------------------------------------------------------------------------|
