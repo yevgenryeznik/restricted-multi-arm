@@ -23,6 +23,8 @@ function minqd(N::Array{Int64}, w::Array{Float64}; η::Float64)
     else
         μ = 2/((ntrt-1)*var(B))*η*(sum(B .* ρ)-minimum(B))
         p = ρ .- 0.5 .* μ .* (B .- mean(B))
+
+        # checking if there are negative probabilities
         p1 = [ifelse(p[k] < 0, 0, p[k]) for k ∈ 1:ntrt]
         
         return p1/sum(p1)
