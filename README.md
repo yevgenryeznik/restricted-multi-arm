@@ -114,11 +114,22 @@ $$
 For procedures that have the center of the probability mass at the point of perfect balance for every $n$, this measure can be interpreted as the momentum of probability mass (MPM). Thus, for any allocation step $j$, one can calculate
 
 $$
-MPM(j) = \mathbf{E}\left[Imb(j)\right], \: j = 1, 2, \ldots, n.
+MPM(j) = \mathbf{E}\left[Imb(j)\right], \quad j = 1, 2, \ldots, n.
 $$
 
 Small values of MPM are desirable throughout the course of the trial.
 
 ### Randomness
 
+Forcing index ($FI$) is considered as a measure of lack of randomness. For the $j^\text{th}$ subject, the $FI$ is the distance from the vector of conditional randomization probabilities $P(j) = \left(P_1(j),\ldots, P_K(j)\right)$ and the vector of target randomization probabilities 
+$ρ = \left(\rho_1,\ldots, \rho_K\right):
 
+$$
+FI_j = \sqrt{\sum\limits_{k=1}^K\left(P_k(j)-\rho_k\right)^2}.
+$$
+
+If $FI_j = 0$, then the treatment assignment for the jth subject is made completely at random. Then the $FI$ for the design is obtained as
+
+$$
+FI(n) = \frac{1}{n}\sum\limits_{j = 1}^n{FI_j}.
+$$
