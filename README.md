@@ -122,14 +122,16 @@ Small values of MPM are desirable throughout the course of the trial.
 ### Randomness
 
 Forcing index ($FI$) is considered as a measure of lack of randomness. For the $j^\text{th}$ subject, the $FI$ is the distance from the vector of conditional randomization probabilities $P(j) = \left(P_1(j),\ldots, P_K(j)\right)$ and the vector of target randomization probabilities 
-$ρ = \left(\rho_1,\ldots, \rho_K\right):
+$ρ = \left(\rho_1,\ldots, \rho_K\right)$:
 
 $$
 FI_j = \sqrt{\sum\limits_{k=1}^K\left(P_k(j)-\rho_k\right)^2}.
 $$
 
-If $FI_j = 0$, then the treatment assignment for the jth subject is made completely at random. Then the $FI$ for the design is obtained as
+If $FI_j = 0$, then the treatment assignment for the  $j^\text{th}$ subject is made completely at random. Then the $FI$ for the design is obtained as
 
 $$
 FI(n) = \frac{1}{n}\sum\limits_{j = 1}^n{FI_j}.
 $$
+
+The smaller the $FI(n)$ is, the less predictable the randomization procedure is; the value of $FI(n) = 0$ corresponds to the _**CRD**_ procedure. As with the imbalance, it is important to study not only the final $FI$ after $n$ subjects but also its intermediate values, i. e., $FI(j)$, $1 \leq j \leq n$.
