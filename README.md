@@ -105,6 +105,12 @@ where $0 \leq \eta \leq 1$ controls degree of randomness of the procedure.
 
 ### Balance
 
+For a design with $n$ subjects, treatment imbalance can be defined as a distance, in some metric, between the achieved allocation $(N_1(n), \ldots, N_K(n))$ and the target allocation $(n\rho_1, \ldots, n\rho_K)$. Using Euclidean metric, the imbalance is defined as
+
+$$
+Imb(n) = \sqrt{\sum\limits_{k=1}^K\left(N_k(n)-n\rho_k\right)^2}.
+$$
+
 ### Randomness
 
 
