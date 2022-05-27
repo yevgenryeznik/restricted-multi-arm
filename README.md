@@ -1,11 +1,8 @@
-# Randomization
+# Restricted randomization procedures
 
-A set of `Julia` functions to simulate clinical trials targeting unequal allocation. 
+A set of `Julia` functions to _multi-arm_ simulate clinical trials targeting _unequal allocation_. 
 So far, _eight different randomization procedures_ have been implemented.
-There is a _simulation example_ comparing procedures in terms of
-
-- _**Randomness**_
-- _**Balance**_
+There is a _simulation example_ comparing procedures in terms of _**Balance-Randomness trade-off**_.
 
 
 ## Notations
