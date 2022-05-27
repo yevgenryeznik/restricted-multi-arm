@@ -8,6 +8,6 @@ function pbd(N::Array{Int64}, w::Array{Float64}; λ::Int64)
     # number of complete blocks among the previous assignments
     k = floor((j-1)/bs)
     
-    # probabilities of tretament assignments
+    # probabilities of treatment assignments
     return (λ.*w.*(1 + k) .- N) ./ (bs*(1 + k) - (j-1))
 end

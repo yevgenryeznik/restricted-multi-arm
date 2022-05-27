@@ -20,7 +20,7 @@ function randomize(nsbj::Int64, nsim::Int64, w::Array{Float64}, seed::Int64, rnd
             # given the current values of tretament numbers (N1, N2)
             ϕ[j, :, s] = rnd(N, w; kwargs...)
 
-            # here, the tretament assignment is made
+            # here, the treatment assignment is made
             δ[j, :, s] = assign_trt(ϕ[j, :, s], u[j, s])
 
             # updating treatment numbers
