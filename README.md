@@ -111,6 +111,14 @@ $$
 Imb(n) = \sqrt{\sum\limits_{k=1}^K\left(N_k(n)-n\rho_k\right)^2}.
 $$
 
+For procedures that have the center of the probability mass at the point of perfect balance for every $n$, this measure can be interpreted as the momentum of probability mass (MPM). Thus, for any allocation step $j$, one can calculate
+
+$$
+MPM(j) = \mathbf{E}\left[Imb(j)\right], \: j = 1, 2, \ldots, n.
+$$
+
+Small values of MPM are desirable throughout the course of the trial.
+
 ### Randomness
 
 
