@@ -1,4 +1,4 @@
-function randomize_dl(nsbj::Int64, nsim::Int64, w::Array{Int64}, seed::Int64, a::Int64)
+function randomize_dl(nsbj::Int64, nsim::Int64, w::Array{Int64}, seed::Int64; a::Int64)
     # getting number of treatments
     ntrt = length(w)
 
